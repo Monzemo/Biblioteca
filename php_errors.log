@@ -1,0 +1,95 @@
+[06-May-2016 21:07:07 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/db.php on line 8
+[06-May-2016 21:07:07 UTC] PHP Stack trace:
+[06-May-2016 21:07:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[06-May-2016 21:07:07 UTC] PHP   2. require_once() /home/ubuntu/workspace/php/db_register.php:2
+[06-May-2016 21:07:07 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/php/db.php:8
+[07-May-2016 04:19:12 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/db.php on line 8
+[07-May-2016 04:19:12 UTC] PHP Stack trace:
+[07-May-2016 04:19:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[07-May-2016 04:19:12 UTC] PHP   2. require_once() /home/ubuntu/workspace/php/db_register.php:2
+[07-May-2016 04:19:12 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/php/db.php:8
+[07-May-2016 04:19:58 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/db.php on line 8
+[07-May-2016 04:19:58 UTC] PHP Stack trace:
+[07-May-2016 04:19:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[07-May-2016 04:19:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/php/db_register.php:2
+[07-May-2016 04:19:58 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/php/db.php:8
+[07-May-2016 04:34:58 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/db.php on line 8
+[07-May-2016 04:34:58 UTC] PHP Stack trace:
+[07-May-2016 04:34:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[07-May-2016 04:34:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/php/db_register.php:2
+[07-May-2016 04:34:58 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/php/db.php:8
+[07-May-2016 04:34:58 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/db.php on line 8
+[07-May-2016 04:34:58 UTC] PHP Stack trace:
+[07-May-2016 04:34:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[07-May-2016 04:34:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/php/db_register.php:2
+[07-May-2016 04:34:58 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/php/db.php:8
+[07-May-2016 04:34:58 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/db.php on line 8
+[07-May-2016 04:34:58 UTC] PHP Stack trace:
+[07-May-2016 04:34:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[07-May-2016 04:34:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/php/db_register.php:2
+[07-May-2016 04:34:58 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/php/db.php:8
+[07-May-2016 04:34:58 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/db.php on line 8
+[07-May-2016 04:34:58 UTC] PHP Stack trace:
+[07-May-2016 04:34:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[07-May-2016 04:34:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/php/db_register.php:2
+[07-May-2016 04:34:58 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/php/db.php:8
+[07-May-2016 04:34:58 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/db.php on line 8
+[07-May-2016 04:34:58 UTC] PHP Stack trace:
+[07-May-2016 04:34:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[07-May-2016 04:34:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/php/db_register.php:2
+[07-May-2016 04:34:58 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/php/db.php:8
+[07-May-2016 04:34:58 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/php/db.php on line 8
+[07-May-2016 04:34:59 UTC] PHP Stack trace:
+[07-May-2016 04:34:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[07-May-2016 04:34:59 UTC] PHP   2. require_once() /home/ubuntu/workspace/php/db_register.php:2
+[07-May-2016 04:34:59 UTC] PHP   3. PDO->__construct() /home/ubuntu/workspace/php/db.php:8
+[09-May-2016 17:40:18 UTC] PHP Fatal error:  Call to undefined method PDOStatement::lastInsertId() in /home/ubuntu/workspace/php/db_register.php on line 39
+[09-May-2016 17:40:18 UTC] PHP Stack trace:
+[09-May-2016 17:40:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[10-May-2016 21:00:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php/registro.php on line 63
+[10-May-2016 21:00:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php/registro.php on line 63
+[10-May-2016 21:01:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php/registro.php on line 63
+[10-May-2016 21:01:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php/registro.php on line 63
+[10-May-2016 21:02:50 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/ubuntu/workspace/php/registro.php on line 52
+[16-May-2016 22:13:55 UTC] PHP Fatal error:  Call to undefined function is_empty() in /home/ubuntu/workspace/php/db_edit.php on line 16
+[16-May-2016 22:13:55 UTC] PHP Stack trace:
+[16-May-2016 22:13:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_edit.php:0
+[21-May-2016 19:49:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/db_edit.php on line 20
+[21-May-2016 19:49:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/db_edit.php on line 20
+[21-May-2016 21:18:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/db_edit.php on line 20
+[21-May-2016 21:18:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/db_edit.php on line 20
+[21-May-2016 21:18:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/db_edit.php on line 20
+[21-May-2016 21:18:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/db_edit.php on line 20
+[21-May-2016 22:58:21 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/php/db_nuevo_articulo.php on line 37
+[21-May-2016 23:09:10 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/php/db_nuevo_articulo.php on line 26
+[21-May-2016 23:09:10 UTC] PHP Stack trace:
+[21-May-2016 23:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_nuevo_articulo.php:0
+[22-May-2016 00:02:20 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/articulo-modif.php on line 62
+[22-May-2016 00:02:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/articulo-modif.php on line 62
+[22-May-2016 00:02:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/articulo-modif.php on line 62
+[24-May-2016 19:27:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/php/db_edit.php on line 24
+[24-May-2016 19:28:17 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/ubuntu/workspace/php/db_edit.php on line 37
+[24-May-2016 21:59:21 UTC] PHP Fatal error:  Class 'ImageManipulator' not found in /home/ubuntu/workspace/php/db_edit.php on line 113
+[24-May-2016 21:59:21 UTC] PHP Stack trace:
+[24-May-2016 21:59:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_edit.php:0
+[24-May-2016 21:59:21 UTC] PHP   2. uploadAvatar() /home/ubuntu/workspace/php/db_edit.php:30
+[24-May-2016 22:55:35 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/ubuntu/workspace/php/edit-articulo.php on line 7
+[24-May-2016 22:56:33 UTC] PHP Parse error:  syntax error, unexpected '$id' (T_VARIABLE) in /home/ubuntu/workspace/php/edit-articulo.php on line 8
+[31-May-2016 21:44:25 UTC] PHP Fatal error:  Call to undefined function uploadAvatar() in /home/ubuntu/workspace/php/db_register.php on line 29
+[31-May-2016 21:44:25 UTC] PHP Stack trace:
+[31-May-2016 21:44:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[31-May-2016 21:46:04 UTC] PHP Fatal error:  Call to undefined function uploadAvatar() in /home/ubuntu/workspace/php/db_register.php on line 29
+[31-May-2016 21:46:04 UTC] PHP Stack trace:
+[31-May-2016 21:46:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[31-May-2016 21:48:11 UTC] PHP Fatal error:  Call to undefined function uploadAvatar() in /home/ubuntu/workspace/php/db_register.php on line 29
+[31-May-2016 21:48:11 UTC] PHP Stack trace:
+[31-May-2016 21:48:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[31-May-2016 21:49:45 UTC] PHP Fatal error:  Call to undefined function uploadAvatar() in /home/ubuntu/workspace/php/db_register.php on line 29
+[31-May-2016 21:49:45 UTC] PHP Stack trace:
+[31-May-2016 21:49:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[31-May-2016 21:55:08 UTC] PHP Fatal error:  Call to undefined function uploadAvatar() in /home/ubuntu/workspace/php/db_register.php on line 29
+[31-May-2016 21:55:08 UTC] PHP Stack trace:
+[31-May-2016 21:55:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0
+[31-May-2016 22:06:45 UTC] PHP Fatal error:  Call to undefined function uploadAvatar() in /home/ubuntu/workspace/php/db_register.php on line 29
+[31-May-2016 22:06:46 UTC] PHP Stack trace:
+[31-May-2016 22:06:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/db_register.php:0

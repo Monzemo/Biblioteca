@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<link rel="shortcut icon" href="imagenes/icono-sello.ico">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bjqs.min.js"></script>
+    <script src="js/script.js"></script>
+	<title>BibliotecaITE</title>
+</head>
+<body>
+	<div class="container">
+    <!-- Ventana Modal para inicio de sesion ====================================================================================-->
+        <div class="ventana">
+            <div class="form">
+                <div class="cerrar"><a href="javascript:closeVentana();">Cerrar</a></div>
+                <h1>Login</h1>
+                <br>
+                <hr>
+                <br>
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>Nombre: </td>
+                            <td><input type="text" placeholder="Ingresa Usuario" id="txt1" required></td>
+                        </tr>
+                        <tr>
+                            <td>Password: </td>
+                            <td><input type="password" placeholder="Ingresa Password" id="txt2" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="Ingresar" id="ing-btn"></td>
+                        </tr>
+                    </table>
+                </form>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <p>Instituto Tecnol&oacute;gico de Ensenada</p>
+            </div>
+        </div>
+        <!-- Fin de ventana modal para inicio de sesion ======================================================================================-->
+		<!-- inicio de top de la pagina, logos y demas ===========================================================================-->
+		<div id="logos" class="group">
+            <div id="logo_sep_nombre_tec">  
+                <div id="logo_sep">
+                    <a href="http://www.sep.gob.mx/" target="_black">
+                        <img src="imagenes/logoSEP_hoz.png" />                            
+                    </a>  
+                </div>  
+                <div id="nombre">
+                    <label><font face='soberana_sanslight'><strong>BIBLIOTECA ITE</strong></font></label>
+                </div>
+            </div>                         
+            <div id="logo_dgest_tec">
+                <a href="http://www.snit.mx/" target="_black">
+                    <img src="imagenes/logodgest.png" />                            
+                </a>                          
+                <a href="/">
+                    <img  src="imagenes/logo.png" />
+                </a>
+            </div>
+        </div>
+        <!-- fin de top de pagina, logos y demas ================================================================================================== -->
+        <br><!-- salto de linea-->
+        <!-- Inicio de barra de menu ==============================================================================================================-->
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Residencias</a></li>
+                <li><a href="#">Biblioteca</a></li>
+            </ul>
+        </div>
+        <!-- Fin del menu bar ================================================================================================================-->
+        <br>
+        <!-- Titulo de movimiento .. bienvenida ===============================================================================================-->
+        <div id="bienvenido">
+            <marquee behavior="" direction="" width="30%" height="60" aling="bottom">
+                <h4><strong>BIENVENIDOS</strong></h4>
+            </marquee>
+        </div>
+        <!-- Fin de titulo bienvenida -============================================================================================================ -->
+        <br>
+        <!-- slide e informacion =========================================================================================================================-->
+		<div id="slider">
+            <ul class="bjqs">
+                <li>
+                    <a href="#"><img width="900" height="400" id="1" src="imagenes/D2B542E3F.jpg" title="Guitarra" width="100%"></a>
+                </li>
+                <li>
+                    <a href="#"><img width="900" height="400" id="2" src="imagenes/nueva_york.jpg" title="New York" width="100%"></a>
+                </li>
+                <li>
+                    <a href="#"><img width="900" height="400" id="3" src="imagenes/Mustang.jpg" title="Mustang" width="100%"></a>
+                </li>
+            </ul>
+		</div>
+        <!-- Formulario para ingreso =======================================================================================================================-->
+        <!-- Ingreso o acceso a la biblioteca .. ================================================================================================-->
+        <div id="formulario">
+            <table id="formulario2">
+                <tr>
+                    <td>
+                        (<a href="javascript:openVentana();">Administrador</a>)  Para Ingresar a la Biblioteca ingresa:
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Ingresa tu #Control, Nombre, Usuario o Codigo de Barras" id="txtingreso"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Ingresar" id="btningresar" class="miboton"></td>
+                </tr>
+                <tr>
+                    <td>Puedes ingresar con:<br>1. #Control<br>2. Nombre<br>3. Usuario</td>
+                </tr>
+            </table>
+        </div>
+        <!-- Fin del formulario de ingreso ===================================================================================================================-->
+        <!-- Informacion actualizada breaking news ===========================================================================================================-->
+        <div id="inf-actual">
+            
+        </div>
+        <!-- Fin de la informacion actualizada ================================================================================================================-->
+        <br>
+        <!-- inicio del final de la ventana====================================================================================================================-->
+		<div id="footer">
+			<table width="1000" border="0">
+				<tr>
+            	<td></td><td colspan="2"></td>
+                </tr>
+                <tr>
+                <td></td><td align="center"><img src="imagenes/sep.png" width="213" height="55"></td>
+                <td></td>
+	            </tr>
+	            <tr>
+	            <td colspan="3" align="center"><font face='soberana_sanslight' size="2" color="#808080">
+	            Instituto Tecnol&oacute;gico de Ensenada. Boulevard Tecnol&oacute;gico No. 150 Col. Ex Ejido Chapultepec C.P. 22750<br>
+	            Ensenada, Baja California; M&eacute;xico. Tels: (646) 1775680, 78 y 82 <br>
+	            Presidencia de la Rep&uacute;blica, M&eacute;xico - Algunos derechos reservados &copy;</font>
+	            </td>
+	            </tr>
+			</table>
+		</div>
+		<!-- fin del final de la pagina ========================================================================================================================-->
+	</div>
+</body>
+<script>
+    function openVentana(){
+        $(".ventana").slideDown("slow");
+    }
+    function closeVentana(){
+        $(".ventana").slideUp("fast");
+    }
+</script>
+</html>

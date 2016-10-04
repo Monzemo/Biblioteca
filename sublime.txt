@@ -1,0 +1,34 @@
+=============================================================
+=====================SUBLIME TEXT============================
+=============================================================
+
+=======================CTRL + P==============================
+:NUM DE LINEA ---> EL CURSOR SE COLOCA EN LA LINEA INDICADA
+@ ---> TE MUESTRA TODOS LOS METODOS
+#PALABRA A BUSCAR ---> BUSCA UN TIPO DE TEXTO
+=============================================================
+
+======================OTROS ATRIBUTOS========================
+PARA CAMBIAR EL COLOR DE LA LETRA ---> color
+FONDO CAMBIAR ---> BACKGROUND
+CTRL + ESPACIO ---> AUTOCOMPLETA
+=============================================================
+
+========================HOJA DE ESTILO=======================
+#+id ---> afecta solo ese div
+.+clase ---> afecta todas las clases con ese nombre
+color ---> cambia color de letra
+padding ---> hace un grosor del div
+display ---> sirve para ajustar el padding al largo del caracter
+display -> inline-block ---> hace cuadros del mismo tamano y los coloca de lado a lado
+margin ---> separacion de blokes
+border-bottom ---> colocar un color en la parte inferior
+margin-bottom ---> hacer una separacion entre divs
+vertical-aling ---> alinear verticalmente
+=============================================================
+
+=====================ESTILO DE INPUTS========================
+input[type="text"] ---> para llamar este tipo de input
+width ---> ancho del input o caja de texto
+height ---> alto de input
+#segundo input[type="text"] ---> para referenciar que quiero cambiar el input con el id segundo
